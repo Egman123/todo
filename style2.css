@@ -1,0 +1,52 @@
+*{
+    padding: 0; margin: 0;
+    border: none; outline: none;
+    box-sizing: border-box;
+    transition: .3s all linear;
+}
+
+
+body{
+    background-image: linear-gradient(to right, pink, white);
+}
+
+.main{
+    width: 350px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.todo-button{
+    cursor: pointer;
+    background: gray;
+    border-radius: .3rem;
+    padding: .3rem;
+    color: white;
+}
+
+.todo{
+    background: gray;
+    margin: .3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+}
+
+.todo .fa-check{
+    color: green;
+    cursor: pointer;
+}
+
+.todo .fa-trash{
+    color: red;
+    cursor: pointer;
+}
+
+.completed {
+    background: rgb(185, 194, 185);
+    
+}
+
+.fall{
+    transform: translateY(5rem) rotate(20deg)
+}
